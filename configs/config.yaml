@@ -1,0 +1,34 @@
+random_seed: 42
+
+paths:
+  raw_data: "data/raw/raman_spectra_api_compounds.csv"
+  processed_data_dir: "data/processed"
+  figures_dir: "results/figures"
+  reports_dir: "results/reports"
+
+preprocessing:
+  crop_min: 400
+  crop_max: 1800
+  apply_cosmic_ray_removal: true
+  apply_baseline_correction: true
+  apply_snv: true
+  apply_derivative: true
+
+feature_engineering:
+  use_pca: false
+  n_components: 10
+
+classification:
+  enabled: true
+  model_name: "logistic_regression"
+  test_size: 0.2
+
+regression:
+  enabled: true
+  model_name: "pls"
+  pls_components: 6
+
+experiment:
+  hard_pair_top_k: 5
+  generate_figures: true
+  generate_report: true

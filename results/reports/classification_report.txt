@@ -1,0 +1,40 @@
+Classification accuracy: 0.9701
+
+                                precision    recall  f1-score   support
+
+1,3-Dimethyl-2-imidazolidinone       1.00      1.00      1.00        22
+                  2 - Propanol       1.00      1.00      1.00        22
+      2, 2 - Dimethoxy Propane       1.00      1.00      1.00        21
+          4-Methyl-2-pentanone       0.43      0.15      0.22        20
+                   Acetic acid       1.00      1.00      1.00        23
+                       Acetone       1.00      1.00      1.00        24
+                  Acetonitrile       1.00      1.00      1.00        21
+                  Benzaldehyde       1.00      1.00      1.00        24
+                Benzyl bromide       1.00      1.00      1.00        22
+                 Butyl Acetate       1.00      1.00      1.00        21
+                    Chloroform       1.00      1.00      1.00        25
+                   Cyclohexane       1.00      1.00      1.00        29
+               Dichloromethane       1.00      1.00      1.00        22
+              Diethyl Malonate       1.00      1.00      1.00        20
+                  Diethylamine       1.00      1.00      1.00        21
+             Diethylene Glycol       1.00      1.00      1.00        21
+            Dimethyl Sulfoxide       1.00      1.00      1.00        21
+                       Ethanol       1.00      1.00      1.00        22
+                 Ethyl Acetate       1.00      1.00      1.00        22
+               Ethylene Glycol       1.00      1.00      1.00        20
+                   Formic acid       1.00      1.00      1.00        22
+                 Isobutylamine       1.00      1.00      1.00        21
+                      Methanol       1.00      1.00      1.00        20
+        Methyl Isobutyl Ketone       0.50      0.81      0.62        21
+       N,N - Dimethylformahide       1.00      1.00      1.00        21
+                Propyl acetate       1.00      1.00      1.00        21
+                  Tert-butanol       1.00      1.00      1.00        23
+       Tert-butyl methyl ether       1.00      1.00      1.00        24
+               Tetrahydrofuran       1.00      1.00      1.00        20
+                       Toluene       1.00      1.00      1.00        25
+                     n-Heptane       1.00      1.00      1.00        21
+                      n-Hexane       1.00      1.00      1.00        20
+
+                      accuracy                           0.97       702
+                     macro avg       0.97      0.97      0.96       702
+                  weighted avg       0.97      0.97      0.97       702

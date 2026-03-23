@@ -1,0 +1,13 @@
+numpy
+pandas
+scipy
+scikit-learn
+matplotlib
+pyyaml
+pytest
+fastapi
+uvicorn
+jupyter
+notebook
+joblib
+requests

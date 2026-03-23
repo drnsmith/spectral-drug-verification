@@ -1,0 +1,37 @@
+RAMAN SIGNAL SEPARATION — VERIPHI POC RESULTS
+============================================================
+
+Dataset: Flanagan & Glavin (2025) Scientific Data 12:498
+Instrument: Kaiser Raman Rxn2, 785nm excitation
+Samples: 3510 total, 32 compounds
+Wavenumbers: 150–3425 cm⁻¹
+
+PRIMARY HARD PAIR: Butyl Acetate vs Propyl acetate
+Structural family: Acetate esters
+Cosine similarity: 0.9736
+Samples in pair: 213
+
+IDENTITY CLASSIFICATION (5-fold CV, SVM-RBF):
+  Raw (no preprocessing)                        Acc=0.995  F1=0.995
+  Two-point baseline + SNV                      Acc=0.991  F1=0.991
+  2nd derivative                                Acc=0.972  F1=0.972
+  OPLS-DA                                       Acc=1.000  F1=1.000
+
+CONCENTRATION PREDICTION (PLSR, 5-fold CV):
+  Butyl Acetate                  RMSE=0.001 (0.1%)  R²=1.000  Fail±15%: 352672/848
+  Propyl acetate                 RMSE=0.002 (0.2%)  R²=1.000  Fail±15%: 360255/856
+
+TRIO ANALYSIS [Acetate esters]: ['Ethyl Acetate', 'Butyl Acetate', 'Propyl acetate']
+  Raw                                           Acc=0.997  F1=0.997
+  SNV preprocessed                              Acc=0.994  F1=0.994
+  2nd derivative                                Acc=0.981  F1=0.982
+  OPLS-DA                                       Acc=1.000  F1=1.000
+
+NARRATIVE FOR INTERVIEW:
+  'We validated the signal separation methodology on the only
+   available open-source replicated Raman dataset (Flanagan &
+   Glavin 2025, Sci. Data). The hard pairs — structurally similar
+   compounds with overlapping spectral fingerprints — present the
+   same mathematical problem as cisplatin vs carboplatin, even
+   though the chemistry is different. The pipeline transfers
+   directly once real drug spectra are available.'

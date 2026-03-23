@@ -1,0 +1,8 @@
+compound_a,compound_b,cosine_similarity
+Methyl Isobutyl Ketone,4-Methyl-2-pentanone,0.9998570764541613
+n-Hexane,n-Heptane,0.9944703598209529
+Propyl acetate,Butyl Acetate,0.9809186070218301
+Ethyl Acetate,Propyl acetate,0.965184327424176
+Ethyl Acetate,Butyl Acetate,0.9355329505711765
+Methanol,Ethanol,0.8236324159913306
+Formic acid,Tetrahydrofuran,0.6041972429687638
